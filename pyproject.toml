@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "shang"
+version = "0.1.0"
+description = "AI-driven automated daily market report system"
+authors = ["renyicao <renyi.cao@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+
+[tool.poetry.group.dev.dependencies]
+fastapi = "^0.115.0"
+uvicorn = "^0.30.6"
+pandas = "^2.2.3"
+numpy = ">=1.26.0,<2.0.0"
+scikit-learn = "^1.5.2"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+matplotlib = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
